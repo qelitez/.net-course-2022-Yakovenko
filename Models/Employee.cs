@@ -10,9 +10,11 @@ namespace Models
     {
         //Поле
         private string contract;
+        private int salary;
 
         //Свойство
         public string Contract { get { return contract; } set { contract = value; } }
+        public int Salary { get { return salary; } set { salary = value; } }
     }
 
 }

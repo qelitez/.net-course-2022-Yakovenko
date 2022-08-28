@@ -9,12 +9,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{BCDD88E8-992E-4798-A26E-12FB1F55E5A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{98179964-BCC3-4AA1-A3F4-CB630AC1FCB6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Models", "Models\Models.csproj", "{98179964-BCC3-4AA1-A3F4-CB630AC1FCB6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeWithTypes", "PracticeWithTypes\PracticeWithTypes.csproj", "{2293756B-A043-4DD8-92E3-A245794AD8E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PracticeWithTypes", "PracticeWithTypes\PracticeWithTypes.csproj", "{2293756B-A043-4DD8-92E3-A245794AD8E0}"
 	ProjectSection(ProjectDependencies) = postProject
 		{98179964-BCC3-4AA1-A3F4-CB630AC1FCB6} = {98179964-BCC3-4AA1-A3F4-CB630AC1FCB6}
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CastAndConvert", "CastAndConvert\CastAndConvert.csproj", "{0296B602-DCF6-4E57-9C24-B6F19AF22106}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,6 +32,10 @@ Global
 		{2293756B-A043-4DD8-92E3-A245794AD8E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2293756B-A043-4DD8-92E3-A245794AD8E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2293756B-A043-4DD8-92E3-A245794AD8E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0296B602-DCF6-4E57-9C24-B6F19AF22106}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0296B602-DCF6-4E57-9C24-B6F19AF22106}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0296B602-DCF6-4E57-9C24-B6F19AF22106}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0296B602-DCF6-4E57-9C24-B6F19AF22106}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -37,6 +43,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{98179964-BCC3-4AA1-A3F4-CB630AC1FCB6} = {2DAB60D7-5A6B-4CEC-A89D-2D0EA563B334}
 		{2293756B-A043-4DD8-92E3-A245794AD8E0} = {BCDD88E8-992E-4798-A26E-12FB1F55E5A5}
+		{0296B602-DCF6-4E57-9C24-B6F19AF22106} = {2DAB60D7-5A6B-4CEC-A89D-2D0EA563B334}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0097849E-39FC-49C1-B05C-98D472240A58}
