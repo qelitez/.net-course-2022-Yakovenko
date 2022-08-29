@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace Models
 {
-    internal class Client : Person
+    public class Client : Person
     {
-        private string codeClient;
-        public string CodeClient { get; set; }  
+        public string CodeClient { get; set; }
+        
     }
    
 }
