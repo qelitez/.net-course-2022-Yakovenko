@@ -9,7 +9,7 @@ namespace Models
     internal class Client : Person
     {
         private string codeClient;
-        public string CodeClient { get { return codeClient; } set { codeClient = value; } }
+        public string CodeClient { get; set; }  
     }
    
 }

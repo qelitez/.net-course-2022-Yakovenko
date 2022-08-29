@@ -8,11 +8,8 @@ namespace Models
 {
     public class Employee : Person
     {
-        //Поле
-        private string contract;
+        public string Contract { get; set; }
 
-        //Свойство
-        public string Contract { get { return contract; } set { contract = value; } }
     }
 
 }
